@@ -5,11 +5,11 @@ date: "2015-06-15"
 output: html_document
 ---
 # run.analysis.R script description
-This Readme dscribes the prosecc of obtaining the tidy data file fom the raw data accessed from the Coursersa website, where it was sources from the website representing data collected from the accelerometers from the Samsung Galaxy S smartphone: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-## Dowloading and Reading Raw Data 
-As the first step. the raw data is downloaded and unzipped into the directiry named "Project".
-There are two data sets called TRAIN and TEST, each containing a set of 561 measurements (train/X_train.txt and test/X_test.txt), a set of actovity lables 1 to 6 (y_train.txt, y_test.txt ), and subject labels from 1 to 30. TEST database contains 2947 observations, TRAIN - 7352 observations. 
-The data frames names were assignes as follows: 
+This Readme describes the process of obtaining the tidy data file from the raw data accessed from the Coursera website, where it was sources from the website representing data collected from the accelerometers from the Samsung Galaxy S smartphone: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+## Downloading and Reading Raw Data 
+As the first step. the raw data is downloaded and unzipped into the directory named "Project".
+There are two data sets called TRAIN and TEST, each containing a set of 561 measurements (train/X_train.txt and test/X_test.txt), a set of activity labels 1 to 6 (y_train.txt, y_test.txt ), and subject labels from 1 to 30. TEST database contains 2947 observations, TRAIN - 7352 observations. 
+The data frames names were assigned as follows:
 
 actlabeltrain <- read.table("./Project/UCI HAR Dataset/train/y_train.txt") 
 actlabeltest <- read.table("./Project/UCI HAR Dataset/test/y_test.txt") 
