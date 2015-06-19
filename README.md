@@ -14,7 +14,7 @@ The data frames names were assignes as follows:
 actlabeltrain <- read.table("./Project/UCI HAR Dataset/train/y_train.txt") 
 actlabeltest <- read.table("./Project/UCI HAR Dataset/test/y_test.txt") 
 datasettrain <- read.table("./Project/UCI HAR Dataset/train/X_train.txt") 
-datasettest <- read.table("./Project/UCI HAR 
+datasettest <- read.table("./Project/UCI HAR Dataset/train/X_test.txt")
 subjecttrain <- read.table("./Project/UCI HAR Dataset/train/subject_train.txt")
 subjecttest <- read.table("./Project/UCI HAR Dataset/test/subject_test.txt") 
 
@@ -29,7 +29,7 @@ Means and standard deviation columns where extracted according to the informatio
 The resulting data set contains 68 columns, Activity and subject lablels and 66 mean and standard deviations of the measurmement variables.
 ##Step 3
 Step 3. The script assigns descriptive activity names to each activity in the data set. It reads the activity description form file "activity_labels.txt" and the activity numbers in the activity column are replaced with the respective activity descriptions.
-## Step 4. 
+## Step 4
 Appropriately labels the data set with descriptive variable names. 
 For the sake of clarity, the extra punctuation is removed from the variable names. 
 Each average measurement's name is a combination of several elements. Prefix "t"" denotes time and prexix "f" means Fast Fourier Transform (FFT) was applied. "Acc"" stands for the accelerometer and "Gyro"" for gyroscope. "Jerk"" in the variable name means the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. "Body" and "Gravity" mean the signal was separated into body and gravity acceleration signals. "Mag" in the end means denotes the magnitude of the signal. The signal was 3-axial, each direction denoted by X, Y, or Z.
