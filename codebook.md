@@ -13,7 +13,7 @@ The objective of the project was to collect, work with, and clean a data set.
 ##Study design and data processing
 
 ###Collection of the raw data
-Raw data was accessed from the Coursersa website, where it was sources from the website representing data collected from the accelerometers from the Samsung Galaxy S smartphone: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Raw data was accessed from the Coursersa website, where it was sourced from the website representing data collected from the accelerometers from the Samsung Galaxy S smartphone: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ##Creating the tidy datafile
 
